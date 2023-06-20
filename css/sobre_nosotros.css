@@ -1,0 +1,69 @@
+#nosotros {
+    display: grid;
+    margin-top: 5rem;
+    grid-template-columns: 1fr 2fr;
+    background-color: #ccc;
+}
+
+#nosotros img {
+    margin: 2rem;
+    margin-left: 20rem;
+    width: 200px;
+    height: 150px; 
+}
+
+
+#nosotros #text-nosotros {
+    margin: 5%;
+    margin-left: 35px;
+}
+
+
+#nosotros #text-nosotros p {
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+#sobre_nosotros{
+    display: grid;
+    grid-template-columns: 1fr ;
+    margin: 2rem;
+}
+
+#sobre_nosotros #text_sobre_nosotros p {
+    margin-bottom: 1rem;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+#sobre_nosotros #text_sobre_nosotros h1 {
+    font-size: 55px;
+    margin-bottom: 5rem;
+    margin-top: 5rem;
+    text-align: center;
+
+}
+
+
+@media screen and (max-width: 1200px) {
+    #nosotros {
+        display: grid;
+        margin-top: 5rem;
+        grid-template-columns: 1fr;
+        justify-items: center;
+        justify-content: center;
+    }
+
+    #nosotros img {
+        margin: auto;
+        margin-top: 5rem;
+    }
+
+    #nosotros #text-nosotros {
+        text-align: center;
+        width: 50vw;
+    }
+
+}

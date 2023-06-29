@@ -1,0 +1,78 @@
+* Crea una nueva carpeta SCSS y dentro un archivo styles.scss
+
+* Abrir terminal ejecutar ( npm init)  que creará el archivo package.json
+
+// POR LAS DUDAS HACER UN BACKUO DE LOS ARCHIVOS CSS POR QUE EL SASS LO SOBREESCRIBIRA //
+
+* Ejecutar el comando ( npm install -g sass)
+
+* Para compilar, ejecutar el comando (sass -watch scss:css) 
+
+
+
+
+
+Subir a tu github
+
+Chequear versión:
+git --version
+
+Setear nombre de usuario:
+git config --global user.name “Juan Perez”
+
+Setear email:
+git config --global user.email juanperez@gmail.com
+
+Chequear nombre del usuario:
+git config –-global user.name
+
+Chequear email:
+git config –-global user.email
+
+Chequear configuración:
+git config –-list
+
+Ver ayuda:
+git help <comando>
+git <comando>--help
+
+
+
+
+Iniciar repositorio:
+git init
+
+Iniciar repositorio dentro de una nueva carpeta:
+git init <nombre-del-repo>
+
+Ver estado del repositorio:
+git status
+
+
+
+/* Importante */
+Git add (todos los archivos):
+git add .
+
+Git add (archivo):
+git add <nombre-del-archivo>
+
+Hacer un commit commit:
+git commit -m “descripción del commit”
+/*Fin*/
+
+
+Ver logs:
+git log
+
+Ver logs resumido:
+git log --oneline
+
+Ver ramas:
+git branch
+
+
+
+
+ modificación
+

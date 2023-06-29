@@ -6,7 +6,7 @@
 
 * Ejecutar el comando ( npm install -g sass)
 
-* Para compilar, ejecutar el comando (sass -watch scss:css) 
+* Para compilar, ejecutar el comando (sass --watch scss:css) 
 
 
 

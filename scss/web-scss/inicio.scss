@@ -35,7 +35,8 @@
 }
 
 @media screen and (max-width: 1200px) {
-    #imagen-container img {
+    #imagen-container{ 
+    img {
         max-width: 0;
         display: none;
     }
@@ -48,7 +49,7 @@
         background-color: #0056b3;
     }
 }
-
+}
 
 /*Autora 1*/
 

@@ -1,3 +1,5 @@
+@import '../nav-footer-scss/nav-footer.scss';
+
 #form {
     display: flex;
     justify-content: center;
@@ -7,6 +9,7 @@
     border: 1px solid black;
     margin: 5%;
 }
+
 
 .form-registro {
     width: 400px;
@@ -18,11 +21,36 @@
     border-radius: 4px;
     font-family: 'calibri';
     color: white;
-}
 
-.form-registro h4 {
-    font-size: 22px;
-    margin-bottom: 20px;
+    h4 {
+        font-size: 22px;
+        margin-bottom: 20px;
+    }
+
+    p {
+        height: 60px;
+        text-align: center;
+        font-size: 15px;
+
+    }
+
+    a {
+        color: white;
+        text-decoration: none;
+    }
+
+    .botons {
+        width: 100%;
+        background: #1f53c5;
+        border: none;
+        /*Saca el relleno del boton*/
+        padding: 12px;
+        color: white;
+        margin: 16px 0;
+        font-size: 16px;
+    }
+
+
 }
 
 .datos {
@@ -36,31 +64,8 @@
     color: white;
 }
 
-.form-registro p {
-    height: 60px;
-    text-align: center;
-    font-size: 15px;
-
+#checkbox {
+    p {
+        margin-bottom: 10px;
+    }
 }
-
-#checkbox p {
-    margin-bottom: 10px;
-}
-
-.form-registro a {
-    color: white;
-    text-decoration: none;
-}
-
-.form-registro .botons {
-    width: 100%;
-    background: #1f53c5;
-    border: none;
-    /*Saca el relleno del boton*/
-    padding: 12px;
-    color: white;
-    margin: 16px 0;
-    font-size: 16px;
-}
-
-

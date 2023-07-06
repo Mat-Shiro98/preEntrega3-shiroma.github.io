@@ -150,7 +150,7 @@ nav ul li a:hover {
     max-width: 0;
     display: none;
   }
-  h1 {
+  #imagen-container h1 {
     position: static;
     transform: none;
     text-align: center;

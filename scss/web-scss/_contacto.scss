@@ -1,5 +1,14 @@
 @import '../nav-footer-scss/nav-footer.scss';
 
+#container_contacto{
+    background-image: url(/img/fondo_contactos.jpg);
+}
+
+#titulo_contacto{
+    font-weight: bold;
+    background-color: antiquewhite;
+}
+
 #form {
     display: flex;
     justify-content: center;
@@ -9,6 +18,7 @@
     border: 1px solid black;
     margin: 5%;
 }
+
 
 
 .form-registro {

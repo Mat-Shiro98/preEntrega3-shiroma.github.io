@@ -11,6 +11,10 @@
   padding: 0;
 }
 
+body {
+  background-color: #faebd7;
+}
+
 #menu_2 {
   display: none;
 }
@@ -128,6 +132,10 @@ nav ul li a:hover {
   padding: 0;
 }
 
+body {
+  background-color: #faebd7;
+}
+
 #menu_2 {
   display: none;
 }
@@ -237,6 +245,10 @@ nav ul li a:hover {
 
 #footer-text {
   padding: 2rem 3rem 0 3rem;
+}
+
+#container_index {
+  background-color: #faebd7;
 }
 
 /*Carrusel*/
@@ -335,10 +347,11 @@ nav ul li a:hover {
 #barra {
   margin-top: 5rem;
   text-align: center;
+  background-color: #1e959d;
 }
 #barra img {
-  max-width: 100%;
-  width: 150rem;
+  max-width: 50%;
+  width: 100rem;
 }
 
 @media screen and (max-width: 1200px) {
@@ -421,8 +434,15 @@ nav ul li a:hover {
   padding: 6rem;
   text-align: center;
 }
+#autores .otros_autores img {
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+}
 #autores .otros_autores h3 {
-  margin-top: 3rem;
+  margin-top: 1rem;
+}
+#autores .otros_autores h3 a {
+  text-decoration: none;
+  color: black;
 }
 
 @media screen and (max-width: 1200px) {
@@ -440,6 +460,10 @@ nav ul li a:hover {
   font-family: "Roboto", sans-serif;
   margin: 0;
   padding: 0;
+}
+
+body {
+  background-color: #faebd7;
 }
 
 #menu_2 {
@@ -562,14 +586,13 @@ nav ul li a:hover {
 #nosotros img {
   margin: 2rem;
   margin-left: 20rem;
-  width: 200px;
-  height: 150px;
 }
 #nosotros #text-nosotros {
   margin: 5%;
   margin-left: 35px;
+  margin-top: 10rem;
 }
-#nosotros #text-nosotros p {
+#nosotros #text-nosotros #dicho {
   font-size: 25px;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
@@ -591,7 +614,7 @@ nav ul li a:hover {
   text-align: center;
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 950px) {
   #nosotros {
     display: grid;
     margin-top: 5rem;
@@ -606,12 +629,17 @@ nav ul li a:hover {
   #nosotros #text-nosotros {
     text-align: center;
     width: 50vw;
+    margin-top: 3rem;
   }
 }
 * {
   font-family: "Roboto", sans-serif;
   margin: 0;
   padding: 0;
+}
+
+body {
+  background-color: #faebd7;
 }
 
 #menu_2 {
@@ -767,6 +795,10 @@ h1 {
   font-family: "Roboto", sans-serif;
   margin: 0;
   padding: 0;
+}
+
+body {
+  background-color: #faebd7;
 }
 
 #menu_2 {
@@ -945,6 +977,13 @@ h1 {
 #otros-generos .text-otros-genero img:hover {
   transform: scale(1.15);
 }
+#otros-generos .text-otros-genero h3 {
+  margin-top: 2rem;
+}
+#otros-generos .text-otros-genero h3 a {
+  text-decoration: none;
+  color: black;
+}
 
 @media screen and (max-width: 1200px) {
   #otros-generos {
@@ -962,6 +1001,10 @@ h1 {
   font-family: "Roboto", sans-serif;
   margin: 0;
   padding: 0;
+}
+
+body {
+  background-color: #faebd7;
 }
 
 #menu_2 {
@@ -1073,6 +1116,15 @@ nav ul li a:hover {
 
 #footer-text {
   padding: 2rem 3rem 0 3rem;
+}
+
+#container_contacto {
+  background-image: url(/img/fondo_contactos.jpg);
+}
+
+#titulo_contacto {
+  font-weight: bold;
+  background-color: antiquewhite;
 }
 
 #form {

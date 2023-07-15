@@ -1119,7 +1119,9 @@ nav ul li a:hover {
 }
 
 #container_contacto {
-  background-image: url(/img/fondo_contactos.jpg);
+  background-image: url(img/fondo_contactos.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 #titulo_contacto {

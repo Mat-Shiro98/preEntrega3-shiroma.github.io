@@ -1,27 +1,32 @@
 @import '../nav-footer-scss/nav-footer.scss';
 
-#container_contacto{
-    background-image: url(img/fondo_contactos.jpg);
+body {
+    font-family: Arial, sans-serif;
+}
+
+// Estilos del contenedor de contacto
+#container_contacto {
+    background-image: url(../img/fondo_contactos.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-#titulo_contacto{
+// Estilos del título de contacto
+#titulo_contacto {
     font-weight: bold;
     background-color: antiquewhite;
 }
 
+// Estilos del formulario
 #form {
     display: flex;
     justify-content: center;
+    margin: 5%;
     margin-top: 100px;
     margin-bottom: 50px;
     overflow: hidden;
     border: 1px solid black;
-    margin: 5%;
 }
-
-
 
 .form-registro {
     width: 400px;
@@ -43,7 +48,6 @@
         height: 60px;
         text-align: center;
         font-size: 15px;
-
     }
 
     a {
@@ -55,14 +59,11 @@
         width: 100%;
         background: #1f53c5;
         border: none;
-        /*Saca el relleno del boton*/
         padding: 12px;
         color: white;
         margin: 16px 0;
         font-size: 16px;
     }
-
-
 }
 
 .datos {
@@ -79,5 +80,12 @@
 #checkbox {
     p {
         margin-bottom: 10px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    #container_contacto {
+        background-image: none;
+
     }
 }

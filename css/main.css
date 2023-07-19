@@ -82,7 +82,7 @@ nav ul li a:hover {
   width: 200px;
   padding: 8px;
   border: 1px solid #ccc;
-  border-radius: 4px;
+  border-radius: 30px;
   margin-right: 8px;
 }
 #buscador button {
@@ -90,11 +90,35 @@ nav ul li a:hover {
   background-color: #007bff;
   color: #fff;
   border: none;
-  border-radius: 4px;
+  border-radius: 10px;
   cursor: pointer;
 }
 #buscador button:hover {
-  background-color: #0056b3;
+  background-color: #9f652f;
+}
+
+#buscador2 {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+#buscador2 input {
+  width: 250px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 30px;
+  margin-right: 8px;
+}
+#buscador2 button {
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+#buscador2 button:hover {
+  background-color: #9f652f;
 }
 
 @media screen and (max-width: 1200px) {
@@ -203,7 +227,7 @@ nav ul li a:hover {
   width: 200px;
   padding: 8px;
   border: 1px solid #ccc;
-  border-radius: 4px;
+  border-radius: 30px;
   margin-right: 8px;
 }
 #buscador button {
@@ -211,11 +235,35 @@ nav ul li a:hover {
   background-color: #007bff;
   color: #fff;
   border: none;
-  border-radius: 4px;
+  border-radius: 10px;
   cursor: pointer;
 }
 #buscador button:hover {
-  background-color: #0056b3;
+  background-color: #9f652f;
+}
+
+#buscador2 {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+#buscador2 input {
+  width: 250px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 30px;
+  margin-right: 8px;
+}
+#buscador2 button {
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+#buscador2 button:hover {
+  background-color: #9f652f;
 }
 
 @media screen and (max-width: 1200px) {
@@ -269,9 +317,10 @@ nav ul li a:hover {
   height: auto;
   filter: brightness(50%);
 }
-#imagen-container h1 {
+#imagen-container #titulo_inicio {
   font-size: 5rem;
   position: absolute;
+  font-weight: bold;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -284,7 +333,7 @@ nav ul li a:hover {
     max-width: 0;
     display: none;
   }
-  #imagen-container h1 {
+  #imagen-container #titulo_inicio {
     position: static;
     transform: none;
     text-align: center;
@@ -533,7 +582,7 @@ nav ul li a:hover {
   width: 200px;
   padding: 8px;
   border: 1px solid #ccc;
-  border-radius: 4px;
+  border-radius: 30px;
   margin-right: 8px;
 }
 #buscador button {
@@ -541,11 +590,35 @@ nav ul li a:hover {
   background-color: #007bff;
   color: #fff;
   border: none;
-  border-radius: 4px;
+  border-radius: 10px;
   cursor: pointer;
 }
 #buscador button:hover {
-  background-color: #0056b3;
+  background-color: #9f652f;
+}
+
+#buscador2 {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+#buscador2 input {
+  width: 250px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 30px;
+  margin-right: 8px;
+}
+#buscador2 button {
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+#buscador2 button:hover {
+  background-color: #9f652f;
 }
 
 @media screen and (max-width: 1200px) {
@@ -597,6 +670,15 @@ nav ul li a:hover {
   font-style: italic;
 }
 
+#titulo_sobre_nosotros {
+  font-weight: bold;
+  font-size: 55px;
+  margin-bottom: 5rem;
+  margin-top: 5rem;
+  text-align: center;
+  font-weight: bold;
+}
+
 #sobre_nosotros {
   display: grid;
   grid-template-columns: 1fr;
@@ -606,12 +688,6 @@ nav ul li a:hover {
   margin-bottom: 1rem;
   font-size: 20px;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-}
-#sobre_nosotros #text_sobre_nosotros h1 {
-  font-size: 55px;
-  margin-bottom: 5rem;
-  margin-top: 5rem;
-  text-align: center;
 }
 
 @media screen and (max-width: 950px) {
@@ -709,7 +785,7 @@ nav ul li a:hover {
   width: 200px;
   padding: 8px;
   border: 1px solid #ccc;
-  border-radius: 4px;
+  border-radius: 30px;
   margin-right: 8px;
 }
 #buscador button {
@@ -717,11 +793,35 @@ nav ul li a:hover {
   background-color: #007bff;
   color: #fff;
   border: none;
-  border-radius: 4px;
+  border-radius: 10px;
   cursor: pointer;
 }
 #buscador button:hover {
-  background-color: #0056b3;
+  background-color: #9f652f;
+}
+
+#buscador2 {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+#buscador2 input {
+  width: 250px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 30px;
+  margin-right: 8px;
+}
+#buscador2 button {
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+#buscador2 button:hover {
+  background-color: #9f652f;
 }
 
 @media screen and (max-width: 1200px) {
@@ -758,9 +858,12 @@ nav ul li a:hover {
   justify-content: center;
 }
 
-h1 {
-  margin-top: 2rem;
+#titulo_galeria {
+  font-weight: bold;
   font-size: 55px;
+  margin-top: 5rem;
+  text-align: center;
+  font-weight: bold;
 }
 
 #galeria {
@@ -868,7 +971,7 @@ nav ul li a:hover {
   width: 200px;
   padding: 8px;
   border: 1px solid #ccc;
-  border-radius: 4px;
+  border-radius: 30px;
   margin-right: 8px;
 }
 #buscador button {
@@ -876,11 +979,35 @@ nav ul li a:hover {
   background-color: #007bff;
   color: #fff;
   border: none;
-  border-radius: 4px;
+  border-radius: 10px;
   cursor: pointer;
 }
 #buscador button:hover {
-  background-color: #0056b3;
+  background-color: #9f652f;
+}
+
+#buscador2 {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+#buscador2 input {
+  width: 250px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 30px;
+  margin-right: 8px;
+}
+#buscador2 button {
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+#buscador2 button:hover {
+  background-color: #9f652f;
 }
 
 @media screen and (max-width: 1200px) {
@@ -912,10 +1039,12 @@ nav ul li a:hover {
   padding: 2rem 3rem 0 3rem;
 }
 
-h1 {
-  text-align: center;
-  margin-top: 2rem;
+#titulo_biblioteca {
+  font-weight: bold;
   font-size: 55px;
+  margin-top: 5rem;
+  text-align: center;
+  font-weight: bold;
 }
 
 .genero {
@@ -1074,7 +1203,7 @@ nav ul li a:hover {
   width: 200px;
   padding: 8px;
   border: 1px solid #ccc;
-  border-radius: 4px;
+  border-radius: 30px;
   margin-right: 8px;
 }
 #buscador button {
@@ -1082,11 +1211,35 @@ nav ul li a:hover {
   background-color: #007bff;
   color: #fff;
   border: none;
-  border-radius: 4px;
+  border-radius: 10px;
   cursor: pointer;
 }
 #buscador button:hover {
-  background-color: #0056b3;
+  background-color: #9f652f;
+}
+
+#buscador2 {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+#buscador2 input {
+  width: 250px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 30px;
+  margin-right: 8px;
+}
+#buscador2 button {
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+#buscador2 button:hover {
+  background-color: #9f652f;
 }
 
 @media screen and (max-width: 1200px) {
@@ -1129,8 +1282,13 @@ body {
 }
 
 #titulo_contacto {
-  font-weight: bold;
   background-color: antiquewhite;
+  font-weight: bold;
+  font-size: 55px;
+  margin-bottom: 5rem;
+  margin-top: 5rem;
+  text-align: center;
+  font-weight: bold;
 }
 
 #form {

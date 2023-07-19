@@ -48,9 +48,36 @@
     }
 }
 
+@media screen and (max-width: 1200px) {
+    #nosotros {
+        display: grid;
+        margin-top: 5rem;
+        grid-template-columns: 1fr 2fr;
+        justify-items: center;
+        justify-content: center;
+    
+        img {
+            margin: auto;
+            margin-top: 2rem;
+        }
+    
+        #text-nosotros {
+            margin: 5%;
+            margin-left: 35px;
+            margin-top: 10rem;
+    
+            #dicho {
+                font-size: 25px;
+                font-style: italic;
+    
+            }
+        }
+    }
+}
 
 
-@media screen and (max-width: 950px) {
+
+@media screen and (max-width: 750px) {
     #nosotros {
         display: grid;
         margin-top: 5rem;

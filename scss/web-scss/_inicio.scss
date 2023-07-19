@@ -38,7 +38,23 @@
     }
 }
 
+/*Tamaño Tablet*/
 @media screen and (max-width: 1200px) {
+    #imagen-container{
+        #titulo_inicio {
+            font-size: 4rem;
+            position: absolute;
+            font-weight: bold;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: white;
+        }
+    }
+}
+
+/*Tamaño Celular*/
+@media screen and (max-width: 750px) {
     #imagen-container {
         img {
             max-width: 0;
@@ -54,6 +70,7 @@
         }
     }
 }
+
 
 /*Autora 1*/
 
@@ -87,7 +104,34 @@
 }
 
 
+/*Tamaño Tablet*/
+
 @media screen and (max-width: 1200px) {
+    #autora1 {
+        display: grid;
+        margin-top: 5rem;
+        grid-template-columns: 1fr 2fr;
+        justify-items: center;
+        justify-content: center;
+
+        img {
+            margin: auto;
+            margin-top: 5rem;
+        }
+
+        #text-autora1 {
+            text-align: center;
+            width: 50vw;
+            margin-bottom: 5rem;
+        }
+    }
+
+    
+}
+
+
+/*Tamaño Celular*/
+@media screen and (max-width: 750px) {
     #autora1 {
         display: grid;
         margin-top: 5rem;
@@ -102,7 +146,6 @@
 
         #text-autora1 {
             text-align: center;
-            width: 50vw;
         }
     }
 }
@@ -118,6 +161,18 @@
     }
 }
 
+@media screen and (max-width: 1200px) {
+    .libro {
+        margin-top: 5rem;
+        text-align: center;
+        img {
+            max-width: 80%;
+        }
+    }
+
+}
+
+
 /*Barra*/
 
 
@@ -132,7 +187,8 @@
     }
 }
 
-@media screen and (max-width: 1200px) {
+/*Tamaño Celular*/
+@media screen and (max-width: 750px) {
     .libro {
         margin-top: 5rem;
         text-align: center;
@@ -184,7 +240,32 @@
     }
 }
 
+/*Tamaño Tablet*/
 @media screen and (max-width: 1200px) {
+    #autora2 {
+        display: grid;
+        margin-top: 5rem;
+        grid-template-columns: 1fr 2fr;
+        justify-items: center;
+        justify-content: center;
+
+        img {
+            margin: auto;
+            margin-top: 5rem;
+        }
+
+        #text-autora2 {
+            text-align: center;
+            width: 50vw;
+            margin-bottom: 5rem;
+        }
+    }
+}
+
+
+
+/*Tamaño Celular*/
+@media screen and (max-width: 750px) {
     #autora2 {
         display: grid;
         margin-top: 5rem;
@@ -248,6 +329,22 @@
 @media screen and (max-width: 1200px) {
     #autores {
         display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        justify-content: center;
+        justify-items: center;
+        padding: 6rem;
+        text-align: center;
+
+        .otros_autores {
+            text-align: center;
+        }
+    }
+}
+
+/*Tamaño Celular*/
+@media screen and (max-width: 750px) {
+    #autores {
+        display: grid;
         margin-top: 5rem;
         grid-template-columns: 1fr;
         row-gap: 8rem;
@@ -256,5 +353,4 @@
             text-align: center;
         }
     }
-
 }

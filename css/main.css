@@ -121,7 +121,38 @@ nav ul li a:hover {
   background-color: #9f652f;
 }
 
+/*Para tablet*/
 @media screen and (max-width: 1200px) {
+  #menu_1 {
+    display: none;
+  }
+  #menu_2 {
+    display: flex;
+    background-color: #333;
+  }
+  #menu_2 .navbar-brand {
+    color: white;
+  }
+  #offcanvasNavbar {
+    background-color: #c3c3c3;
+  }
+}
+/*Footer*/
+#copyright {
+  background-color: #c3c3c3;
+}
+
+.footer-contac {
+  color: white;
+  margin: 1rem;
+}
+
+#footer-text {
+  padding: 2rem 3rem 0 3rem;
+}
+
+/*Para Celular*/
+@media screen and (max-width: 750px) {
   #menu_1 {
     display: none;
   }
@@ -266,7 +297,38 @@ nav ul li a:hover {
   background-color: #9f652f;
 }
 
+/*Para tablet*/
 @media screen and (max-width: 1200px) {
+  #menu_1 {
+    display: none;
+  }
+  #menu_2 {
+    display: flex;
+    background-color: #333;
+  }
+  #menu_2 .navbar-brand {
+    color: white;
+  }
+  #offcanvasNavbar {
+    background-color: #c3c3c3;
+  }
+}
+/*Footer*/
+#copyright {
+  background-color: #c3c3c3;
+}
+
+.footer-contac {
+  color: white;
+  margin: 1rem;
+}
+
+#footer-text {
+  padding: 2rem 3rem 0 3rem;
+}
+
+/*Para Celular*/
+@media screen and (max-width: 750px) {
   #menu_1 {
     display: none;
   }
@@ -328,7 +390,20 @@ nav ul li a:hover {
   color: white;
 }
 
+/*Tamaño Tablet*/
 @media screen and (max-width: 1200px) {
+  #imagen-container #titulo_inicio {
+    font-size: 4rem;
+    position: absolute;
+    font-weight: bold;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
+}
+/*Tamaño Celular*/
+@media screen and (max-width: 750px) {
   #imagen-container img {
     max-width: 0;
     display: none;
@@ -366,7 +441,27 @@ nav ul li a:hover {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
+/*Tamaño Tablet*/
 @media screen and (max-width: 1200px) {
+  #autora1 {
+    display: grid;
+    margin-top: 5rem;
+    grid-template-columns: 1fr 2fr;
+    justify-items: center;
+    justify-content: center;
+  }
+  #autora1 img {
+    margin: auto;
+    margin-top: 5rem;
+  }
+  #autora1 #text-autora1 {
+    text-align: center;
+    width: 50vw;
+    margin-bottom: 5rem;
+  }
+}
+/*Tamaño Celular*/
+@media screen and (max-width: 750px) {
   #autora1 {
     display: grid;
     margin-top: 5rem;
@@ -380,7 +475,6 @@ nav ul li a:hover {
   }
   #autora1 #text-autora1 {
     text-align: center;
-    width: 50vw;
   }
 }
 /* Libro */
@@ -392,6 +486,15 @@ nav ul li a:hover {
   max-width: 50%;
 }
 
+@media screen and (max-width: 1200px) {
+  .libro {
+    margin-top: 5rem;
+    text-align: center;
+  }
+  .libro img {
+    max-width: 80%;
+  }
+}
 /*Barra*/
 #barra {
   margin-top: 5rem;
@@ -403,7 +506,8 @@ nav ul li a:hover {
   width: 100rem;
 }
 
-@media screen and (max-width: 1200px) {
+/*Tamaño Celular*/
+@media screen and (max-width: 750px) {
   .libro {
     margin-top: 5rem;
     text-align: center;
@@ -445,7 +549,27 @@ nav ul li a:hover {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
+/*Tamaño Tablet*/
 @media screen and (max-width: 1200px) {
+  #autora2 {
+    display: grid;
+    margin-top: 5rem;
+    grid-template-columns: 1fr 2fr;
+    justify-items: center;
+    justify-content: center;
+  }
+  #autora2 img {
+    margin: auto;
+    margin-top: 5rem;
+  }
+  #autora2 #text-autora2 {
+    text-align: center;
+    width: 50vw;
+    margin-bottom: 5rem;
+  }
+}
+/*Tamaño Celular*/
+@media screen and (max-width: 750px) {
   #autora2 {
     display: grid;
     margin-top: 5rem;
@@ -495,6 +619,20 @@ nav ul li a:hover {
 }
 
 @media screen and (max-width: 1200px) {
+  #autores {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    justify-items: center;
+    padding: 6rem;
+    text-align: center;
+  }
+  #autores .otros_autores {
+    text-align: center;
+  }
+}
+/*Tamaño Celular*/
+@media screen and (max-width: 750px) {
   #autores {
     display: grid;
     margin-top: 5rem;
@@ -621,7 +759,38 @@ nav ul li a:hover {
   background-color: #9f652f;
 }
 
+/*Para tablet*/
 @media screen and (max-width: 1200px) {
+  #menu_1 {
+    display: none;
+  }
+  #menu_2 {
+    display: flex;
+    background-color: #333;
+  }
+  #menu_2 .navbar-brand {
+    color: white;
+  }
+  #offcanvasNavbar {
+    background-color: #c3c3c3;
+  }
+}
+/*Footer*/
+#copyright {
+  background-color: #c3c3c3;
+}
+
+.footer-contac {
+  color: white;
+  margin: 1rem;
+}
+
+#footer-text {
+  padding: 2rem 3rem 0 3rem;
+}
+
+/*Para Celular*/
+@media screen and (max-width: 750px) {
   #menu_1 {
     display: none;
   }
@@ -690,7 +859,29 @@ nav ul li a:hover {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 1200px) {
+  #nosotros {
+    display: grid;
+    margin-top: 5rem;
+    grid-template-columns: 1fr 2fr;
+    justify-items: center;
+    justify-content: center;
+  }
+  #nosotros img {
+    margin: auto;
+    margin-top: 2rem;
+  }
+  #nosotros #text-nosotros {
+    margin: 5%;
+    margin-left: 35px;
+    margin-top: 10rem;
+  }
+  #nosotros #text-nosotros #dicho {
+    font-size: 25px;
+    font-style: italic;
+  }
+}
+@media screen and (max-width: 750px) {
   #nosotros {
     display: grid;
     margin-top: 5rem;
@@ -824,7 +1015,38 @@ nav ul li a:hover {
   background-color: #9f652f;
 }
 
+/*Para tablet*/
 @media screen and (max-width: 1200px) {
+  #menu_1 {
+    display: none;
+  }
+  #menu_2 {
+    display: flex;
+    background-color: #333;
+  }
+  #menu_2 .navbar-brand {
+    color: white;
+  }
+  #offcanvasNavbar {
+    background-color: #c3c3c3;
+  }
+}
+/*Footer*/
+#copyright {
+  background-color: #c3c3c3;
+}
+
+.footer-contac {
+  color: white;
+  margin: 1rem;
+}
+
+#footer-text {
+  padding: 2rem 3rem 0 3rem;
+}
+
+/*Para Celular*/
+@media screen and (max-width: 750px) {
   #menu_1 {
     display: none;
   }
@@ -877,12 +1099,28 @@ nav ul li a:hover {
   width: 50%;
   transition: all 300ms;
   position: relative;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
 }
 #galeria img:hover {
   transform: scale(1.15);
 }
 
+/*Tablet*/
 @media screen and (max-width: 1200px) {
+  #galeria {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10rem;
+    justify-items: center;
+  }
+  #galeria img {
+    width: 80%;
+    position: relative;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+  }
+}
+/*Celular*/
+@media screen and (max-width: 750px) {
   #galeria {
     display: grid;
     grid-template-columns: 1fr;
@@ -892,6 +1130,7 @@ nav ul li a:hover {
   #galeria img {
     width: 40%;
     position: relative;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
   }
 }
 * {
@@ -1010,7 +1249,38 @@ nav ul li a:hover {
   background-color: #9f652f;
 }
 
+/*Para tablet*/
 @media screen and (max-width: 1200px) {
+  #menu_1 {
+    display: none;
+  }
+  #menu_2 {
+    display: flex;
+    background-color: #333;
+  }
+  #menu_2 .navbar-brand {
+    color: white;
+  }
+  #offcanvasNavbar {
+    background-color: #c3c3c3;
+  }
+}
+/*Footer*/
+#copyright {
+  background-color: #c3c3c3;
+}
+
+.footer-contac {
+  color: white;
+  margin: 1rem;
+}
+
+#footer-text {
+  padding: 2rem 3rem 0 3rem;
+}
+
+/*Para Celular*/
+@media screen and (max-width: 750px) {
   #menu_1 {
     display: none;
   }
@@ -1055,6 +1325,7 @@ nav ul li a:hover {
 .genero img {
   margin: 2rem;
   margin-left: 20rem;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
 }
 .genero .text-genero {
   margin: 5%;
@@ -1070,7 +1341,27 @@ nav ul li a:hover {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
+/*Tablet*/
 @media screen and (max-width: 1200px) {
+  .genero {
+    display: grid;
+    margin-top: 5rem;
+    grid-template-columns: 1fr 2fr;
+    justify-items: center;
+    justify-content: center;
+  }
+  .genero img {
+    margin: auto;
+    margin-top: 5rem;
+  }
+  .genero .text-genero {
+    text-align: center;
+    width: 50vw;
+    margin-bottom: 5rem;
+  }
+}
+/*Celular*/
+@media screen and (max-width: 750px) {
   .genero {
     display: grid;
     margin-top: 5rem;
@@ -1082,7 +1373,7 @@ nav ul li a:hover {
     margin: auto;
     margin-top: 5rem;
   }
-  .genero text-genero {
+  .genero .text-genero {
     text-align: center;
     width: 50vw;
   }
@@ -1102,6 +1393,7 @@ nav ul li a:hover {
   transition: all 300ms;
   position: relative;
   margin-bottom: 2rem;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
 }
 #otros-generos .text-otros-genero img:hover {
   transform: scale(1.15);
@@ -1114,7 +1406,26 @@ nav ul li a:hover {
   color: black;
 }
 
+/*Tablet*/
 @media screen and (max-width: 1200px) {
+  #otros-generos {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    justify-items: center;
+    padding: 6rem;
+    text-align: center;
+  }
+  #otros-generos .text-otros-genero {
+    width: 60%;
+    position: relative;
+  }
+  #otros-generos .text-otros-genero img {
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+  }
+}
+/*Celular*/
+@media screen and (max-width: 750px) {
   #otros-generos {
     display: grid;
     grid-template-columns: 1fr;
@@ -1242,7 +1553,38 @@ nav ul li a:hover {
   background-color: #9f652f;
 }
 
+/*Para tablet*/
 @media screen and (max-width: 1200px) {
+  #menu_1 {
+    display: none;
+  }
+  #menu_2 {
+    display: flex;
+    background-color: #333;
+  }
+  #menu_2 .navbar-brand {
+    color: white;
+  }
+  #offcanvasNavbar {
+    background-color: #c3c3c3;
+  }
+}
+/*Footer*/
+#copyright {
+  background-color: #c3c3c3;
+}
+
+.footer-contac {
+  color: white;
+  margin: 1rem;
+}
+
+#footer-text {
+  padding: 2rem 3rem 0 3rem;
+}
+
+/*Para Celular*/
+@media screen and (max-width: 750px) {
   #menu_1 {
     display: none;
   }
@@ -1275,12 +1617,6 @@ body {
   font-family: Arial, sans-serif;
 }
 
-#container_contacto {
-  background-image: url(../img/fondo_contactos.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
 #titulo_contacto {
   background-color: antiquewhite;
   font-weight: bold;
@@ -1299,6 +1635,10 @@ body {
   margin-bottom: 50px;
   overflow: hidden;
   border: 1px solid black;
+  background-image: url(../img/fondo_contactos.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
 }
 
 .form-registro {
@@ -1350,8 +1690,18 @@ body {
   margin-bottom: 10px;
 }
 
+/*tablet*/
 @media screen and (max-width: 1200px) {
-  #container_contacto {
+  #form {
+    background-image: url(../img/fondo_contactos.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+  }
+}
+/*Celular*/
+@media screen and (max-width: 750px) {
+  #form {
     background-image: none;
   }
 }

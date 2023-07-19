@@ -18,6 +18,8 @@ $tipografia: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     img {
         margin: 2rem;
         margin-left: 20rem;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+
     }
 
     .text-genero {
@@ -40,7 +42,30 @@ $tipografia: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     }
 }
 
+/*Tablet*/
 @media screen and (max-width: 1200px) {
+    .genero {
+        display: grid;
+        margin-top: 5rem;
+        grid-template-columns: 1fr 2fr;
+        justify-items: center;
+        justify-content: center;
+        img {
+            margin: auto;
+            margin-top: 5rem;
+        }
+
+        .text-genero {
+            text-align: center;
+            width: 50vw;
+            margin-bottom: 5rem;
+        }
+
+    }
+}
+
+/*Celular*/
+@media screen and (max-width: 750px) {
     .genero {
         display: grid;
         margin-top: 5rem;
@@ -53,13 +78,14 @@ $tipografia: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
             margin-top: 5rem;
         }
 
-        text-genero {
+        .text-genero {
             text-align: center;
             width: 50vw;
         }
 
     }
 }
+
 
 #otros-generos {
     display: grid;
@@ -77,6 +103,8 @@ $tipografia: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
             transition: all 300ms;
             position: relative;
             margin-bottom: 2rem;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+
 
             &:hover {
                 transform: scale(1.15);
@@ -93,7 +121,28 @@ $tipografia: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     }
 }
 
+/*Tablet*/
 @media screen and (max-width: 1200px) {
+    #otros-generos {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        justify-content: center;
+        justify-items: center;
+        padding: 6rem;
+        text-align: center;
+
+        .text-otros-genero {
+            width: 60%;
+            position: relative;
+            img {
+                box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+            }
+        }
+    }
+}
+
+/*Celular*/
+@media screen and (max-width: 750px) {
     #otros-generos {
         display: grid;
         grid-template-columns: 1fr;

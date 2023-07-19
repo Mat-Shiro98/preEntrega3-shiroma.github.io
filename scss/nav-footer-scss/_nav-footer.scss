@@ -121,7 +121,43 @@ nav {
 
 }
 
+/*Para tablet*/
 @media screen and (max-width: 1200px) {
+
+    #menu_1{
+        display: none;
+    }
+
+    #menu_2{
+        display: flex;
+        background-color: #333;
+        .navbar-brand{
+            color: white;
+        }
+    }
+
+    #offcanvasNavbar{
+        background-color: #c3c3c3 ; 
+    }
+}
+
+/*Footer*/
+#copyright{
+    background-color: #c3c3c3;
+}
+
+.footer-contac{
+    color: white;
+    margin: 1rem;
+}
+
+#footer-text{
+    padding: 2rem 3rem 0 3rem;
+}
+
+
+/*Para Celular*/
+@media screen and (max-width: 750px) {
 
     #menu_1{
         display: none;

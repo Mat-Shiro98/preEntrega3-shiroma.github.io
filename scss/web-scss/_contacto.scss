@@ -4,13 +4,6 @@ body {
     font-family: Arial, sans-serif;
 }
 
-// Estilos del contenedor de contacto
-#container_contacto {
-    background-image: url(../img/fondo_contactos.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
 // Estilos del título de contacto
 #titulo_contacto {
     background-color: antiquewhite;
@@ -31,6 +24,10 @@ body {
     margin-bottom: 50px;
     overflow: hidden;
     border: 1px solid black;
+    background-image: url(../img/fondo_contactos.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
 }
 
 .form-registro {
@@ -88,9 +85,19 @@ body {
     }
 }
 
+/*tablet*/
 @media screen and (max-width: 1200px) {
-    #container_contacto {
-        background-image: none;
+    #form {
+        background-image: url(../img/fondo_contactos.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+    }
+}
 
+/*Celular*/
+@media screen and (max-width: 750px) {
+    #form {
+        background-image: none;
     }
 }

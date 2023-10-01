@@ -1,0 +1,79 @@
+#menu {
+    list-style-type: none; /* Quita los puntos de los links de menu*/ 
+    margin: 0;
+    padding: 0;
+}
+
+#menu li {
+    display: inline; /* Esto hace que los elementos de la lista se muestren en línea */
+    margin-right: 20px; /* Espacio entre los elementos del menú (ajusta según tus necesidades) */
+    
+}
+
+#menu a {
+    text-decoration: none;/*Quita las lineas*/
+    color: #333;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+a:visited{
+    color: red;
+}
+
+a:hover{
+    background-color: blueviolet;
+    font-size: 50px;
+}
+
+h1{
+    text-transform: uppercase; /* Pone todo en MAYUSCULA*/
+    text-decoration: underline; /*Pone subrayado*/
+}
+
+h2{
+    text-transform: lowercase; /* Pone todo en minusculas*/
+    text-decoration: line-through; /*TAcha el texto*/
+}
+
+h3{
+    text-decoration: overline;/*Pone sobre el texto subrayado*/
+}
+
+
+#text1,
+#text2,
+#text3,
+#text4{
+    color: blue;
+}
+
+#text3{
+    text-transform: uppercase; /* Pone todo en MAYUSCULA*/
+}
+
+#text5{
+    width: 50%;
+}
+
+
+#div4{
+    border: 1px solid red;
+    width: 500px;
+    height: 300px;
+    text-align: center;
+}
+
+#mov4{
+    text-align: center;
+    margin-left: 10%;
+}
+
+#clase4{
+    width: 400px;
+    height: 200px;
+    overflow-y: auto;
+    border: 1px solid green;
+    
+}
+

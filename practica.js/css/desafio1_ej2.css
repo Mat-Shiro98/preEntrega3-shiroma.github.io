@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;900&display=swap');
+
+
+main{
+    background-color: black;
+}
+
+.titulo1 p{
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-size: 25pt;
+    text-align: center;
+    color: white;
+    background-color: black;
+    
+
+}
+
+.titulo2 p{
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-size: 74pt;
+    text-align: center;
+    background-color: white;
+}
+
+.titulo3 p{
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-size: 85pt;
+    text-align: center;
+    color: white;
+}
+
+
+.titulo4 p{
+    font-family: 'Montserrat';
+    font-weight: normal;
+    font-size: 18pt;
+    text-align: center;
+    background-color: white;
+}
+
+
+.titulo5 p{
+    font-family: 'Montserrat';
+    font-weight: normal;
+    font-size: 22pt;
+    text-align: center;
+    color: white;
+}
